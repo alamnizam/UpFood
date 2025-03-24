@@ -5,8 +5,8 @@ plugins {
 }
 
 android {
-    namespace = "com.codeturtle.theme"
-    buildFeatures{
+    namespace = "com.codeturtle.upfood.theme"
+    buildFeatures {
         compose = true
     }
 }
