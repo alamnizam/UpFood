@@ -22,4 +22,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "UpFood"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
