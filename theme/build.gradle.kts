@@ -32,6 +32,9 @@ dependencies {
     //google fonts
     implementation(libs.androidx.ui.text.google.fonts)
 
+    //Icons
+    implementation(libs.androidx.material.icons.extended.android)
+
     //Junit testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
