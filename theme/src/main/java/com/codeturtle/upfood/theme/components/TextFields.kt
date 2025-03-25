@@ -119,3 +119,19 @@ private fun AppTextFieldPreview1() {
         }
     }
 }
+
+@UpFoodPreview
+@Composable
+private fun AppTextFieldPreview2() {
+    UpFoodTheme {
+        Surface {
+            AppTextField(
+                value = "",
+                onValueChange = {},
+                label = R.string.email,
+//                error = UiText.StringResource(R.string.password_error),
+                keyboardType = KeyboardType.Email
+            )
+        }
+    }
+}
