@@ -5,4 +5,5 @@
     <string name="hide_password">Hide password</string>
     <string name="show_password">Show password</string>
     <string name="password_error">Password Error</string>
+    <string name="arrow_forward">Arrow forward</string>
 </resources>
